@@ -1,0 +1,48 @@
+*{
+  margin: 0;  
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+
+body {
+    background-color: rgb(204, 207, 207);
+
+
+}
+
+h1, h2 {
+    font-family: "Tinos", serif;
+    color: rgb(0, 0, 0);
+}
+
+a {
+    color: rgb(163, 163, 163);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: line-through;
+}
+
+img {
+    width: 100%;
+    vertical-align: middle;
+
+}
+
+iframe {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.galeria { 
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+.galeria > figure{   
+    width: 25%;
+    border: whitesmoke 5px solid;
+}
