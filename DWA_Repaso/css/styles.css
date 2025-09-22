@@ -42,7 +42,58 @@ iframe {
     background-color: black;
 }
 
-.galeria > figure{   
+.galeria > *{   
     width: 25%;
     border: whitesmoke 5px solid;
+}
+
+header, section {
+    border: white 3px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+section{
+
+    min-height: 100vh;
+  
+
+}
+
+header {
+    min-height: calc(100vh - 3em);
+    background-image: url(../img/nuevoedificio.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+head > h1 {
+   font-size: 6vw;
+   text-align: right;
+}
+
+/* Maquetación del menú*/
+
+#menu {
+    position: sticky;
+    top: 0;
+}
+
+
+#menu > ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+#menu > ul > li {
+    list-style: none;
+    border: black 3px solid;
+    height:2em ;
+    display: flex;
+    align-items: center;
 }
