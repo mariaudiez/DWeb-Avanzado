@@ -731,22 +731,208 @@ section.gallery {
   font-style: italic;
   color: var(--background_color);
   text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  border-top: 1px solid black;
+  padding-top: 50px;
+  border-bottom: 1px solid black;
+  padding-bottom: 50px;
 }
 
-.footer {
+.Explication1_About {
+  margin-top: 100px;
+  margin-bottom: 0;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding: 40px;
+  padding-bottom: 0;
+}
+
+.Explication1_About > p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-style: italic;
+  color: var(--background_color);
+  text-align: center;
+}
+
+.Explication2_About {
+  margin-top: 100px;
+  margin-bottom: 0;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding: 40px;
+  padding-bottom: 0;
+}
+
+.Explication2_About > p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-style: italic;
+  color: var(--background_color);
+  text-align: center;
+}
+
+.Explication3_About {
+  margin-top: 100px;
+  margin-bottom: 0;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding: 40px;
+  padding-bottom: 0;
+}
+
+.Explication3_About > p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-style: italic;
+  color: var(--background_color);
+  text-align: center;
+}
+
+/* Formulario de contacto */
+
+.formulario div:first-child div {
+  border: 1px solid black;
+  padding: 1%;
+  border-radius: 13px;
+}
+.formulario div:first-child div h5 {
+  font-family: Inter;
+  color: rgb(176, 176, 176);
+}
+
+.formulario {
+  padding: 6%;
+}
+
+.formulario h5 {
+  padding: 1.5% 0;
+}
+
+.formulario div div h5 {
+  color: black;
+}
+
+.formulario div h4 {
+  padding: 2% 0;
+  font-size: 5vw;
+}
+
+.formulario div:last-child div:last-child {
+  margin-top: 1.5%;
+}
+
+.formulario div:first-child div:last-child {
+  height: 30vh;
+}
+
+.buttonform {
+  border-radius: 13px;
+  border: 0.5px solid white;
+  height: 5vh;
+  background-color: black;
+  width: 20%;
   display: flex;
   justify-content: center;
-  padding: 50px;
-  font-size: 1em;
-  width: 100%;
-  background-color: rgb(121, 3, 3);
+  overflow: hidden;
 }
 
-.footer a {
-  color: var(--white);
-
-  padding: 5px;
-  overflow: hidden;
+.formulario div:last-child div h4 {
+  font-weight: 300;
+  color: white;
+  display: flex;
   width: 100%;
-  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 2vw;
+}
+
+.buttonform h4 {
+  color: white;
+}
+
+.buttonform:hover {
+  background-color: white;
+  border: 1px solid black;
+}
+
+.formulario div:last-child div h4:hover {
+  color: black;
+}
+
+.formulario h4,
+h5 {
+  font-family: Inter;
+  font-weight: 400;
+}
+
+/* Footer */
+
+footer {
+  padding-top: 3em;
+}
+
+footer > ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 2em;
+}
+
+footer > ul > li {
+  list-style: none;
+}
+
+footer > ul > li > a {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  font-size: 2em;
+}
+
+footer > ul > li > a:hover {
+  text-decoration: underline;
+  padding-block-end: -8%;
+}
+
+.footer-principal p {
+  margin-top: 0px;
+  font-size: 40px;
+  justify-content: center;
+}
+
+.titulo-footer p {
+  display: flex;
+  padding-bottom: 55px;
+  padding-top: 3%;
+}
+
+.footer-principal {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+.footer-texto {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 300px;
+  padding-bottom: 40px;
+  padding-left: 2%;
+  padding-right: 2%;
+  color: grey;
+}
+
+.footer-texto ul li {
+  list-style: none;
 }
