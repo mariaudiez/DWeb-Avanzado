@@ -44,3 +44,20 @@ modal.addEventListener("click", function (event) {
     modal.classList.add("hidden");
   }
 });
+
+// const menuButton = document.getElementById("menu-button");
+// const menuButtonIcon = menuButton.querySelector("i");
+// const burgerMenu = document.getElementById("menu");
+
+// menuButton.addEventListener("click", function () {
+//   burgerMenu.classList.toggle("active");
+//   let status = burgerMenu.classList.contains("active");
+
+//   if (status === true) {
+//     menuButtonIcon.classList.remove("bi-list");
+//     menuButtonIcon.classList.add("bi-x-lg");
+//   } else {
+//     menuButtonIcon.classList.remove("bi-x-lg");
+//     menuButtonIcon.classList.add("bi-list");
+//   }
+// });
