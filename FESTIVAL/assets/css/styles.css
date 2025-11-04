@@ -733,9 +733,9 @@ section.gallery {
   text-align: center;
   font-weight: bold;
   font-style: italic;
-  border-top: 1px solid black;
+  border-top: 1px solid rgb(247, 133, 179);
   padding-top: 50px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgb(230, 122, 40);
   padding-bottom: 50px;
 }
 
@@ -799,7 +799,7 @@ section.gallery {
 /* Formulario de contacto */
 
 .formulario div:first-child div {
-  border: 1px solid black;
+  border: 1px solid rgb(242, 140, 196);
   padding: 1%;
   border-radius: 13px;
 }
@@ -859,8 +859,8 @@ section.gallery {
 }
 
 .buttonform:hover {
-  background-color: white;
-  border: 1px solid black;
+  background-color: rgb(249, 184, 229);
+  border: 1px solid white;
 }
 
 .formulario div:last-child div h4:hover {
